@@ -24,8 +24,7 @@ public class OnTrack {
         return users.getOrDefault(userId, "").equals(password);
     }
     
- 
-    public boolean submitTask(String studentId, TaskDetails taskDetails, String taskId) {
+     public boolean submitTask(String studentId, TaskDetails taskDetails, String taskId) {
         if (users.containsKey(studentId)) {
             submissions.put(taskId, taskDetails);
             notifications.get("tutor456").add("New task submitted by " + studentId);
