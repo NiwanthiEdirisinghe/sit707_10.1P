@@ -22,15 +22,4 @@ jobs:
     - name: Build with Maven
       run: mvn -B package --file pom.xml
 
-    # Send email notification
-    - name: Send Email Notification
-      uses: dawidd6/action-send-mail@v2
-      with:
-        server_address: smtp.gmail.com
-        server_port: 587
-        username: niwanthiedirisinghe.95@gmail.com
-        password: Ru4190416niwa#0
-        subject: 'Java CI Build Success Notification'
-        body: 'Your Java CI build completed successfully.'
-        to: 'niwanthiedirisinghe.95@gmail.com'
-        from: 'niwanthiedirisinghe.95@gmail.com'
+   
