@@ -28,8 +28,8 @@ jobs:
       with:
         server_address: smtp.gmail.com
         server_port: 587
-        username: ${{ secrets.EMAIL_USERNAME }}
-        password: ${{ secrets.EMAIL_PASSWORD }}
+        username: niwanthiedirisinghe.95@gmail.com
+        password: Ru4190416niwa#0
         subject: 'Java CI Build Success Notification'
         body: 'Your Java CI build completed successfully.'
         to: 'niwanthiedirisinghe.95@gmail.com'
