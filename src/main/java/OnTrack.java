@@ -15,6 +15,7 @@ public class OnTrack {
         feedbacks = new HashMap<>();
     }
 
+    
     public void addUser(String userId, String password) {
         users.put(userId, password);
         notifications.put(userId, new ArrayList<>());
